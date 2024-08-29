@@ -1,0 +1,92 @@
+body {
+    background: linear-gradient(to right, #141e30, #243b55);
+    font-family: 'Poppins', sans-serif;
+    color: #d1d5db;
+}
+
+.container {
+    padding-top: 50px;
+}
+.navbar {
+    background-color: #1c1c1c;
+}
+
+.navbar-brand, .nav-link {
+    color: #343434!important;
+}
+
+.btn-primary {
+    background-color: #1f4068;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #1b1b2f;
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    background-color: #1b1b2f;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4);
+}
+.card img {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 0.9;
+}
+.card-title {
+    font-size: 20px; 
+    font-weight: 600;
+    color: #e0e0e0;
+}
+
+.card-text {
+    font-size: 16px; 
+    color: #a8a8a8;
+}
+.add-to-cart {
+    background-color: #1f4068;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 25px;
+    transition: background-color 0.3s ease-in-out;
+    color: #ffffff;
+}
+
+.add-to-cart:hover {
+    background-color: #162447;
+}
+
+.badge {
+    font-size: 14px; 
+    padding: 5px 12px;
+    border-radius: 50%;
+    background-color: #e43f5a;
+}
+
+.position-absolute {
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 100%;
+        margin-bottom: 25px;
+    }
+
+    .btn-primary {
+        width: 100%;
+        margin-top: 10px;
+    }
+}

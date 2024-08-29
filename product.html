@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">JK Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="./index.html">Home</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-5">
+                <img id="product-image" src="" alt="Product Image" class="img-fluid product-image">
+            </div>
+            <div class="col-md-7">
+                <div id="productDetails" class="product-details">
+                    <h1>Product Details</h1>
+                    <p><strong>Price:</strong> <span id="price"></span></p>
+                    <p><strong>Description:</strong> <span id="description"></span></p>
+                    <p><strong>Category:</strong> <span id="category"></span></p>
+                    <p><strong>Discount:</strong> <span id="discount"></span></p>
+                    <p><strong>Rating:</strong> <span id="rating"></span> (<span id="reviews"></span> reviews)</p>
+                    <p><strong>Stock:</strong> <span id="stock"></span></p>
+                    <p><strong>Brand:</strong> <span id="brand"></span></p>
+                    <p><strong>SKU:</strong> <span id="sku"></span></p>
+                    <p><strong>Warranty:</strong> <span id="warranty"></span></p>
+                    <p><strong>Shipping:</strong> <span id="shipping"></span></p>
+                    <p><strong>Availability:</strong> <span id="availability"></span></p>
+                    <p><strong>Return Policy:</strong> <span id="returnPolicy"></span></p>
+                    <p><strong>Minimum Order Quantity:</strong> <span id="minimumOrderQuantity"></span></p>
+                    <p><strong>Tags:</strong> <span id="tags"></span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/product.js"></script>
+</body>
+</html>
